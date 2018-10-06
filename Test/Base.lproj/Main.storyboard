@@ -23,7 +23,20 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j2P-xc-t00">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBM-ER-R8V">
+                                                <rect key="frame" x="101" y="47" width="119" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" red="1" green="0.69492187500000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="PBM-ER-R8V" firstAttribute="leading" secondItem="j2P-xc-t00" secondAttribute="leading" constant="101" id="2Ab-wz-ibA"/>
+                                            <constraint firstAttribute="trailing" secondItem="PBM-ER-R8V" secondAttribute="trailing" constant="100" id="DQB-FC-vX0"/>
+                                            <constraint firstItem="PBM-ER-R8V" firstAttribute="top" secondItem="j2P-xc-t00" secondAttribute="top" constant="47" id="nEg-Kc-rPp"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
